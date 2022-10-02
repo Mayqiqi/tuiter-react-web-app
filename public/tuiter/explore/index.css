@@ -1,0 +1,165 @@
+
+#id-search-input::placeholder{
+  padding-left: 30px;
+  color: rgb(110,118,125);
+  background-image: url('public/tuiter/images/search.png');
+  background-repeat: no-repeat;
+}
+
+.wd-bg-color-black{
+  background-color: black;
+}
+
+.wd-bg-padding{
+  margin-left: 16px;
+}
+
+.wd-bg-border{
+  border-style: solid;
+  border-color: rgb(47, 51, 54);
+  border-width: 1px;
+}
+
+.wd-search-color{
+  background-color: rgb(47, 51, 54);
+}
+
+.wd-search-color-darkgrey{
+  background-color: darkgray;
+}
+
+.wd-font-color-lightgrey{
+  color: rgb(211, 211, 211);
+}
+
+.wd-font-color-white{
+  color: white;
+}
+
+.wd-font-color-blue{
+  color: rgb(29,161,242);
+}
+
+
+.wd-search-input{
+  width:1000px;
+  height:25px;
+}
+
+.wd-rounded-corners-all-around {
+  border-radius: 50px;
+}
+
+.wd-search-gear{
+  float: right;
+  padding-top: 3px;
+  margin-right: 12px;
+}
+
+.wd-grid {
+  clear: both;
+}
+
+.wd-grid-heading-bar{
+  clear: both;
+  font-size: 15px;
+}
+
+.wd-grid-heading-for-you {
+  width: 15.62%;
+  float: left;
+  color: rgb(29,161,242);
+}
+
+.wd-padding-top-bottom-right{
+  padding-top: 10px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+}
+.wd-grid-heading {
+  width: 15.62%;
+  float: left;
+  color: rgb(110,118,125);
+}
+
+.wd-heading-below {
+  width: 3%;
+  height: 3px;
+  float: left;
+  margin-top: 8px;
+  background-color: rgb(29,161,242);
+}
+
+.wd-heading-block {
+  width: 100%;
+  height: 10px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  margin-left: -16px;
+  float: left;
+  border-color: rgb(47, 51, 54);
+}
+
+.wd-trending-topic{
+  font-size: 13px;
+  color: rgb(110,118,125);
+  margin-left: 16px;
+}
+
+.wd-trending-title{
+  margin-top: 3px;
+  font-size: 16px;
+  color: white;
+  margin-left: 16px;
+}
+
+.wd-trending-science{
+  padding-top: 5px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+  margin-left: -16px;
+  height: 90px;
+}
+
+.wd-trending{
+  padding-top: 5px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+  margin-left: -16px;
+  height: 70px;
+}
+
+.wd-trending-content{
+  padding-top: 5px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+  margin-left: -16px;
+  height: 110px;
+}
+
+.wd-content-white{
+  font-size: 13px;
+  color: white;
+  margin-left: 16px;
+}
+
+.wd-float-done{
+  clear: both;
+}
+
+.wd-float-left{
+  float: left;
+}
+.wd-float-image{
+  padding-top:3px;
+  float: right;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin-right: 16px;
+  border-radius: 20px;
+}
+
