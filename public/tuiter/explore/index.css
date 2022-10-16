@@ -432,3 +432,7 @@
   color: rgb(110,118,125);
 }
 
+.wd-right-border-rounded{
+  border-radius: 20px;
+}
+
