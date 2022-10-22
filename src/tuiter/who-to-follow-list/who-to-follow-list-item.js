@@ -1,6 +1,6 @@
 const WhoToFollowListItem = (
  {
-   who = { userName: 'NASA', handle: 'NASA', avatarIcon: 'NASA.png' }
+   who = { userName: 'NASA', handle: 'nasa', avatarIcon: 'NASA.png' }
  }
 ) => {
  return(
