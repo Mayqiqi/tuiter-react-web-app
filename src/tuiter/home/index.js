@@ -6,7 +6,6 @@ import './home.css';
 const HomeComponent = () => {
   return(
 
-
     <div className="wd-grid-content">
       {posts.map(post=>
         <PostItem key={post.id}
