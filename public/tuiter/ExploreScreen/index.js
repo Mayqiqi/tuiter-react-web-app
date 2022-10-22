@@ -1,5 +1,5 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
-import WhoToFollowList from "../WhoToFollowList/WhoToFollowList.js";
+import WhoToFollowListPeolpe from "../WhoToFollowList/index.js";
 import ExploreComponent from "./ExploreComponent.js";
 
    $('#wd-explore').append(`
@@ -11,7 +11,7 @@ import ExploreComponent from "./ExploreComponent.js";
     ${ExploreComponent()}
    </div>
    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-    ${WhoToFollowList()}
+    ${WhoToFollowListPeople()}
    </div>
   </div>
    `);

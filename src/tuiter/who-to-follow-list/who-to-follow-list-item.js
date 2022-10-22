@@ -1,14 +1,14 @@
 import React from "react";
 const WhoToFollowListItem = (
  {
-   who = { userName: 'NASA', handle: 'nasa', avatarIcon: 'NASA.png' }
+   who = { userName: 'NASA', handle: 'nasa', avatarIcon: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg' }
  }
 ) => {
  return(
   <li className="list-group-item">
    <div className="row">
      <div className="col-2">
-       <img className="rounded-circle" height={48} src={`./images/${who.avatarIcon}`}/>
+       <img className="rounded-circle" height={48} src={who.avatarIcon}/>
 
      </div>
      <div className="col-8">

@@ -3,18 +3,18 @@
     "_id": 123,
     "userName": "NASA",
     "handle": "NASA",
-    "avatarIcon": "NASA.png"
+    "avatarIcon": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg"
   },
   {
     "_id": 234,
     "userName": "Tesla",
     "handle": "tesla",
-    "avatarIcon": "Tesla.png"
+    "avatarIcon": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg"
   },
   {
     "_id": 345,
     "userName": "SpaceX",
     "handle": "Spacex",
-    "avatarIcon": "spacex.png"
+    "avatarIcon": "https://images.unsplash.com/profile-1457364476443-bc2ab92c9689?dpr=2&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff"
   }
 ]

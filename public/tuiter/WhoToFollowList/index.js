@@ -1,7 +1,7 @@
 import WhoToFollowListItem from "./WhoToFollowListItem.js"
 import items from './who.js';
 
-const WhoToFollowList = () => {
+const WhoToFollowListPeople = () => {
     return(`
         <ul class="list-group wd-right-border-rounded mt-2">
          <li class="list-group-item wd-right-font-border wd-right-width wd-right-bg-color">Who to follow</li>
@@ -12,4 +12,4 @@ const WhoToFollowList = () => {
         </ul>
     `);
 }
-export default WhoToFollowList;
+export default WhoToFollowListPeople;
