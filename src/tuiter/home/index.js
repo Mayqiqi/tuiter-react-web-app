@@ -1,18 +1,30 @@
-import posts from './post.json'
-import PostItem from "./postItem.js"
-import './index.css';
-import './home.css';
+import TuitList from "../tuits/tuitsList";
+import WhatsHappening from "./whats-happening";
+
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
 
 const HomeComponent = () => {
+  const dispatch = useDispatch();
+
+  const setNavActive = (active) => {
+      return {
+          type: "change-active",
+          active,
+      };
+  };
+
+  useEffect(() => {
+      dispatch(setNavActive("Home"));
+  }, [dispatch]);
+
+
   return(
 
-    <div className="wd-grid-content">
-      {posts.map(post=>
-        <PostItem key={post.id}
-         post={post}/>
-          )
-      }
-    </div>
+    <>
+      <WhatsHappening/>
+      <TuitList/>
+    </>
 
 );
 }
