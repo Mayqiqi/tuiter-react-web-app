@@ -2,8 +2,9 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from 'react-router-dom';
 
-const ProfileItem = ({profile}) => {
 
+const ProfileItem = () => {
+    const profile = useSelector(state => state.profile);
     return (
           <>
             <div className="row mt-2">

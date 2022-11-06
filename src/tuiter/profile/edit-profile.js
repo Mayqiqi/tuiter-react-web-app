@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from 'react-router-dom';
+import {updateProfile} from './profile-reducer';
 
 
 const EditProfile =() =>{
@@ -14,15 +15,14 @@ const EditProfile =() =>{
 
     const dispatch = useDispatch();
 
-    const editProfileClickHandler = (profile) => {
-        dispatch({
-            type: 'edit-profile',
-            name: profile.name,
-            bio:profile.bio,
-            location:profile.location,
-            website:profile.website,
-            dateOfBirth:profile.dateOfBirth,
-        });
+    const editProfileClickHandler = () => {
+        dispatch(updateProfile({
+                    name,
+                    bio,
+                    location,
+                    website,
+                    dateOfBirth,
+                }));
 
     }
     return(
