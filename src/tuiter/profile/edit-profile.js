@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from 'react-router-dom';
 import {updateProfile} from './profile-reducer';
 
-
 const EditProfile =() =>{
     const profile = useSelector((state) => state.profile);
 
@@ -23,7 +22,6 @@ const EditProfile =() =>{
                     website,
                     dateOfBirth,
                 }));
-
     }
     return(
         <>
