@@ -20,11 +20,13 @@ const templateTuit = {
  "topic": "Space",
  "time": "2h",
  "liked": false,
- "stats": {
-       "replies":"123",
-       "retuits":"234",
-       "likes":"345"}
-}
+ "disliked":true,
+ "dislikes":"12",
+ "replies":"123",
+ "retuits":"234",
+ "likes":"345"
+ }
+
 
 
 const tuitsSlice = createSlice({
@@ -68,8 +70,22 @@ const tuitsSlice = createSlice({
                   ...state.tuits[tuitNdx],
                   ...payload
               }
-          }
+          },
+      'like-tuit': (state, payload) => {
+                  state.tuits.forEach((item,index) => {
+                      if (item._id === payload.tuit._id) {
+                          state.tuits[index].likes += payload.addLikes
+                      }
+                  })
+      },
 
+      'dislike-tuit': (state, payload) => {
+                        state.tuits.forEach((item,index) => {
+                            if (item._id === payload.tuit._id) {
+                                state.tuits[index].dislikes += payload.addDislikes
+                            }
+                        })
+            }
 
 
   }

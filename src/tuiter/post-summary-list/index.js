@@ -12,8 +12,18 @@ const PostSummaryList = () => {
           dispatch(findTuitsThunk())}, [])
  return(
    <ul className="list-group">
+    {
+          loading &&
+          <li className="list-group-item">
+              Loading...
+
+          </li>
+
+      }
+
+
      {
-       tuits && tuits.map(post =>
+       tuits.map(post =>
          <PostSummaryItem
            key={post._id} post={post}/> )
      }
