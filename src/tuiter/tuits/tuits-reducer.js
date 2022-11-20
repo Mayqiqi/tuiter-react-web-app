@@ -26,7 +26,7 @@ const templateTuit = {
  "retuits":"234",
  "likes":"345"
  }
-
+// console.log(n)
 
 
 const tuitsSlice = createSlice({
