@@ -21,7 +21,7 @@ useEffect(() => {
     }
 
      {
-       tuits.map(tuit =>
+       tuits && tuits.map(tuit =>
          <TuitItem
            key={tuit._id}
            tuit={tuit}/>)
