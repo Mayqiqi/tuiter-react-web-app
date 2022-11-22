@@ -14,7 +14,7 @@ const TuitItem = ({tuit}) =>{
         <>
         <li className="list-group-item">
             <div className="wd-grid-image-left">
-                <img className="wd-avatar-image" src={`./images/${tuit.image}`} alt=""/>
+                <img className="wd-avatar-image" src={`/tuiter/images/${tuit.image}`} alt=""/>
             </div>
 
             <div className="wd-tuit">
@@ -23,6 +23,7 @@ const TuitItem = ({tuit}) =>{
                         {tuit.userName} <i className="fa fa-check-circle"></i><span className="wd-tuit-handle"> {tuit.handle}</span> <span className="wd-tuit-time"> {tuit.time}</span>
                         <i className="bi bi-x-lg float-end"
                         onClick={() => deleteTuitHandler(tuit._id)}></i>
+
 
                     </div>
                 </div>
